@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by CDiscount
- * Created by CDiscount
- * Date: 27/09/2016
- * Time: 15:20
+ * Created by Goci
+ * Created by Goci
+ * Date: 08/08/2019
+ * Time: 16:07
  */
 
 namespace Sdk\Seller;
