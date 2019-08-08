@@ -59,20 +59,7 @@ class Address
     /**
      * @return null
      */
-    public function getApartmentNumber()
-    {
-        return $this->_apartmentNumber;
-    }
-
-    /**
-     * @param null $apartmentNumber
-     */
-    public function setApartmentNumber($apartmentNumber)
-    {
-        if (!SoapTools::isSoapValueNull($apartmentNumber)) {
-            $this->_apartmentNumber = $apartmentNumber;
-        }
-    }
+ 
 
     private $_building = null;
 
@@ -150,10 +137,10 @@ class Address
     /**
      * @param null $companyName
      */
-    public function setCompanyName($companyName)
+    public function setNomdeBoutique($NomdeBoutique)
     {
-        if (!SoapTools::isSoapValueNull($companyName)) {
-            $this->_companyName = $companyName;
+        if (!SoapTools::isSoapValueNull($NomdeBoutique)) {
+            $this->_companyName = $NomdeBoutique;
         }
     }
 
@@ -328,12 +315,3 @@ class Address
     }
 
     /**
-     * @param null $zipCode
-     */
-    public function setZipCode($zipCode)
-    {
-        if (!SoapTools::isSoapValueNull($zipCode)) {
-            $this->_zipCode = $zipCode;
-        }
-    }
-}
